@@ -16,5 +16,5 @@ server.register(require('fastify-cors'), {
 
 server.listen(process.env.PORT || 3000, process.env.HOST || '::', err => {
   if (err) throw err
-  console.log(`server listening on ${app.server.address().port}`)
+  console.log(`server listening on`)
 })
