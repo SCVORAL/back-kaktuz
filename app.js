@@ -14,4 +14,4 @@ server.register(require('fastify-cors'), {
   methods: ['GET', 'HEAD', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
 })
 
-server.listen(PORT)
+server.listen(PORT, () => console.log(`App has been started on port ${PORT}...`))
